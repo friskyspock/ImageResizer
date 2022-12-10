@@ -1,0 +1,4 @@
+pyinstaller has some issues with customtkinter. To see them visit:
+https://github.com/TomSchimansky/CustomTkinter/wiki/Packaging#windows-pyinstaller-auto-py-to-exe
+
+pyinstaller --noconfirm --onedir --windowed --add-data "C:/Users/anike/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0/LocalCache/local-packages/python310/site-packages/customtkinter;customtkinter/" ImageResizer2.py
